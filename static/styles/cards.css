@@ -1,0 +1,13 @@
+.offer-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 1px 1px 5px 3px white;
+}
+
+.offer-card:hover {
+    box-shadow: 1px 1px 18px 3px white;
+}
