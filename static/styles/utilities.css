@@ -1,0 +1,46 @@
+/* Colors */
+:root {
+    --primary-color: #080710;
+    --secondary-color: #daa022;
+    --background-color: rgba(255, 255, 255, 0.07);
+    --font-color: #ffffff;
+    --hover-color: #e7a83a;
+}
+
+/* Typography Utilities */
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Spacing Utilities */
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+/* Flex Utilities */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none !important;
+}
